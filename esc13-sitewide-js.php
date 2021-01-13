@@ -9,6 +9,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       ESC13 Site-Wide Javascript
+ * Plugin URI:        https://github.com/Region13/esc13-sitewide-js
  * Description:       Include in-line html partials on every page. Used to include trackers like facebook pixel, pardot or google tag manager.
  * Version:           1.0.0
  * Author:            ESC Region 13
