@@ -38,3 +38,16 @@ function run_esc13_sitewide_js() {
     echo "<!-- Added by esc13-sitewide-js plugin !-->\n" . $includes . "\n<!-- End esc13-sitewide-js block !-->\n";
 }
 add_action( 'wp_head', 'run_esc13_sitewide_js' );
+
+// Optionally add code to just below the body open tag. Uncomment to enable.
+// /*
+//  * Adds ability to fully implement gtm in wordpress across the whole network.
+//  */
+// function esc13_sitewide_add_custom_body_open_code() {
+//     echo '<!-- Google Tag Manager (noscript esc13_sitewide plug-in) -->
+// <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQ7NX24"
+// height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+// <!-- End Google Tag Manager (noscript) -->';
+// }
+// // Add code after opening body tag.
+// add_action( 'wp_body_open', 'esc13_sitewide_add_custom_body_open_code' );
